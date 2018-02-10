@@ -5,4 +5,4 @@ In time of needs i made these presets in <b>Semantic UI</b> for quick access for
 <p>I have now more time to focus on the Back-End development.</p>
 <p><b>Digital Artwork made by : <a href="https://www.artstation.com/demitsorou" target="_blank">Demitsorou V</a></b></p>
 
-## View examples at : https://github.com/S-Sam-Sin/Semantic-UI-Presets
+## View examples at : https://s-sam-sin.github.io/Semantic-UI-Presets/
