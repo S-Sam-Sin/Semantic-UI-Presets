@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sayid Sam-Sin - Sementic UI Presets</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.10/dist/semantic.min.css">
+    <style>
+       /*.ProfileCards i.icon, .ProfileCards i.icons {*/
+            /*font-size: 2em;*/
+        /*}*/
+
+       .hidden.menu {
+           display: none;
+       }
+
+       .masthead.segment {
+           min-height: 700px;
+           padding: 1em 0em;
+       }
+       .masthead .logo.item img {
+           margin-right: 1em;
+       }
+       .masthead .ui.menu .ui.button {
+           margin-left: 0.5em;
+       }
+       .masthead h1.ui.header {
+           margin-top: 3em;
+           margin-bottom: 0em;
+           font-size: 4em;
+           font-weight: normal;
+       }
+       .masthead h2 {
+           font-size: 1.7em;
+           font-weight: normal;
+       }
+
+       .ui.vertical.stripe {
+           padding: 8em 0em;
+       }
+       .ui.vertical.stripe h3 {
+           font-size: 2em;
+       }
+       .ui.vertical.stripe .button + h3,
+       .ui.vertical.stripe p + h3 {
+           margin-top: 3em;
+       }
+       .ui.vertical.stripe .floated.image {
+           clear: both;
+       }
+       .ui.vertical.stripe p {
+           font-size: 1.33em;
+       }
+       .ui.vertical.stripe .horizontal.divider {
+           margin: 3em 0em;
+       }
+
+       .quote.stripe.segment {
+           padding: 0em;
+       }
+       .quote.stripe.segment .grid .column {
+           padding-top: 5em;
+           padding-bottom: 5em;
+       }
+
+       .footer.segment {
+           padding: 5em 0em;
+       }
+
+       .secondary.pointing.menu .toc.item {
+           display: none;
+       }
+
+       @media only screen and (max-width: 700px) {
+           .ui.fixed.menu {
+               display: none !important;
+           }
+           .secondary.pointing.menu .item,
+           .secondary.pointing.menu .menu {
+               display: none;
+           }
+           .secondary.pointing.menu .toc.item {
+               display: block;
+           }
+           .masthead.segment {
+               min-height: 350px;
+           }
+           .masthead h1.ui.header {
+               font-size: 2em;
+               margin-top: 1.5em;
+           }
+           .masthead h2 {
+               margin-top: 0.5em;
+               font-size: 1.5em;
+           }
+       }
+    </style>
+
+</head>
+<body>
+<!-- Following Menu -->
+<div class="ui large top fixed hidden menu">
+    <div class="ui container">
+        <div class="item">
+            <img class="ui mini circular image" src="https://avatars2.githubusercontent.com/u/23358087?s=460&v=4">
+        </div>
+        <a href="#particles-js" class="active item">Home</a>
+        <a href="#about" class="item">About</a>
+        <div class="ui dropdown item">
+            Profile Presets
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <a href="#profile-cards" class="item">Profile Cards</a>
+                <a href="#profile-full" class="item">Full Profile</a>
+            </div>
+        </div>
+        <div class="right menu">
+            <div class="item">
+                <a href="https://S-Sam-Sin.github.io/cv_sayid_sam-sin.pdf" target="_blank" class="ui inverted red button"><i class="file pdf outline icon"></i>Download Resume</a>
+            </div>
+            <div class="item">
+                <a href="https://github.com/S-Sam-Sin/Semantic-UI-Presets" target="_blank" class="ui inverted blue button"><i class="github icon"></i>View on Github</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+    <a  href="#particles-js" class="active item">Home</a>
+    <a href="#about" class="item">About</a>
+    <a href="#profile-cards" class="item">Profile Presets</a>
+    <a href="https://S-Sam-Sin.github.io/cv_sayid_sam-sin.pdf" target="_blank" class="item"><i class="file pdf outline icon"></i>Download Resume</a>
+    <a href="https://github.com/S-Sam-Sin/Semantic-UI-Presets" target="_blank" class="item""><i class="github icon"></i>View on Github</a>
+</div>
+
+
+<!-- Page Contents -->
+<div class="pusher">
+    <div id="particles-js" class="ui inverted vertical masthead center aligned segment">
+        <div class="ui container" >
+            <div class="ui large secondary inverted pointing menu">
+                <a class="toc item">
+                    <i class="sidebar icon"></i>
+                </a>
+                <div class="item">
+                    <img class="ui mini circular image" src="https://avatars2.githubusercontent.com/u/23358087?s=460&v=4">
+                </div>
+                <a href="#particles-js" class="active item">Home</a>
+                <a href="#about" class="item">About</a>
+                <div class="ui dropdown item">
+                    Profile Presets
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <a href="#profile-cards" class="item">Profile Cards</a>
+                        <a href="#profile-full" class="item">Full Profile</a>
+                    </div>
+                </div>
+                <div class="right item">
+                    <a href="https://S-Sam-Sin.github.io/cv_sayid_sam-sin.pdf" target="_blank" class="ui inverted red button"><i class="file pdf outline icon"></i>Download Resume</a>
+                    <a href="https://github.com/S-Sam-Sin/Semantic-UI-Presets" target="_blank" class="ui inverted blue button"><i class="github icon"></i>View on Github</a>
+                </div>
+            </div>
+        </div>
+        <div class="ui text container" style="position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;">
+            <h1 class="ui inverted header">
+                Semantic UI Presets
+            </h1>
+            <h2>Made by Sayid Sam-Sin</h2>
+        </div>
+    </div>
+<div class="ui  container">
+    <div id="about" class="ui raised segment">
+        <h3  class="ui center aligned block header">
+            About
+        </h3>
+        <p>
+            As an Back-End developer you sometimes need a GUI real quick for <b>testing purposes</b> or for a project <b>without an Front-End Developer</b>.
+            In time of needs i made these presets in <b>Semantic UI</b> for quick access for different parts that can be implemented into a project.
+        </p>
+        <p>I have now more time to focus on the Back-End development.</p>
+        <p><b>Digital Artwork made by : <a href="https://www.artstation.com/demitsorou" target="_blank">Demitsorou V</a></b></p>
+    </div>
+
+    <div id="profile-cards" class="ui padded segment">
+    <h3  class="ui center aligned block header">
+        Profile Cards with animation
+    </h3>
+    <div class="ui three cards">
+            <div class="ui blue card">
+                <div class="content">
+                    <div class="right floated meta"><i class="sr flag"></i></div>
+                    <i class="green circle icon"></i> Online
+                </div>
+                <div class="ui fluid image">
+                    <div class="ui fade reveal">
+                        <div class="visible content">
+                            <img src="assets/avatar1.jpg" class="ui small image">
+                        </div>
+                        <div class="hidden content">
+                            <img src="assets/illu-1.jpg" class="ui small image">
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <a class="header">Orlando</a>
+                    <div class="meta">
+                        <span class="date">C# Developer</span>
+                    </div>
+                    <div class="description">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a><i class="github icon"></i></a>
+                    <a><i class="google plus icon"></i></a>
+                    <a><i class="instagram icon"></i></a>
+                    <a><i class="facebook icon"></i></a>
+                    <a><i class="twitter icon"></i></a>
+                </div>
+                <div class="ui buttons">
+                    <button class="ui blue button">View Profile</button>
+                </div>
+            </div>
+            <div class="ui violet card">
+                <div class="content">
+                    <div class="right floated meta"><i class="nl flag"></i></div>
+                    <i class="orange circle icon"></i> AFK
+                </div>
+                <div class="ui move down reveal">
+                    <div class="visible content">
+                        <img src="assets/avatar2.jpg" class="ui  image">
+                    </div>
+                    <div class="hidden content">
+                        <img src="assets/avatar2-2.jpg" class="ui  image">
+                    </div>
+                    <div class="ui violet bottom left attached label"><i class="paint brush icon"></i> Designer</div>
+                </div>
+                <div class="content">
+                    <a class="header">Mariëlle</a>
+                    <div class="meta">
+                        <span class="date">Web-Designer</span>
+                    </div>
+                    <div class="description">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a><i class="github icon"></i></a>
+                    <a><i class="google plus icon"></i></a>
+                    <a><i class="instagram icon"></i></a>
+                    <a><i class="facebook icon"></i></a>
+                    <a><i class="twitter icon"></i></a>
+                </div>
+                <div class="ui buttons">
+                    <button class="ui violet button">View Profile</button>
+                </div>
+            </div>
+            <div class="ui orange card">
+                <div class="content">
+                    <div class="right floated meta"><i class="jp flag"></i></div>
+                    <i class="yellow circle icon"></i> Under Maintenance
+                </div>
+                <div class="ui image">
+                    <div class="ui rotate left reveal image">
+                        <img src="assets/avatar3.jpg" class="visible content">
+                        <img src="assets/avatar3-3.jpg" class="hidden content">
+                    </div>
+                </div>
+                <div class="content">
+                    <a class="header">&#42665&#42721&#42724&#42679&#42708&#42658</a>
+                    <div class="meta">
+                        <span class="date">Artificial Intelligence</span>
+                    </div>
+                    <div class="description">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a><i class="github icon"></i></a>
+                    <a><i class="google plus icon"></i></a>
+                    <a><i class="instagram icon"></i></a>
+                    <a><i class="facebook icon"></i></a>
+                    <a><i class="twitter icon"></i></a>
+                </div>
+                <div class="ui buttons">
+                    <button class="ui orange button">Start Chat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-full" class="ui padded segment">
+        <h3 class="ui center aligned block header">
+            Full Profile with animations
+        </h3>
+        <div class="ui segment grid">
+            <div class="seven wide  column">
+                <div class="ui special cards">
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui buttons">
+                                            <button class="ui inverted red button">Block User</button>
+                                            <div class="or"></div>
+                                            <button class="ui inverted blue button">Add To Connect</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="assets/avatar1.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nine wide column">
+                <div class="ui fluid blue card">
+                    <div class="content">
+                        <div class="right floated meta">
+                            <button class="ui inverted blue mini button">Send Private Message</button>
+                        </div>
+                        <i class="green circle icon"></i> Online
+                    </div>
+                    <div class="content">
+                        <a class="header">Orlando <i class="right floated sr flag"></i></a>
+                        <div class="meta">
+                            <span class="date">C# Developer</span>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at nulla interdum, vehicula neque a, eleifend ante. Donec nibh dolor, vehicula at scelerisque tempor, suscipit id nulla. Etiam sit amet condimentum lectus. Suspendisse potenti. Vivamus sit amet ultrices est, vel egestas lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ultrices, risus nec luctus tincidunt, arcu elit sollicitudin tortor, a hendrerit elit turpis sed dolor. Ut ac purus a ipsum venenatis fringilla. Praesent varius turpis vel lectus vestibulum ornare. Donec lacinia eros sem, sed molestie lorem fringilla ac. Aliquam auctor hendrerit metus vel pharetra. Proin pellentesque ipsum sit amet congue rutrum. Aliquam tincidunt vitae risus et posuere. Pellentesque gravida ex nec odio blandit, nec feugiat sem faucibus. Etiam ultrices ex efficitur diam varius, non vestibulum nisi aliquet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content">
+                         <span class="right floated">
+                             <i class="phone icon"></i> +316 00000000
+                         </span>
+                        <span>
+                            <i class="mail icon"></i> <a href="mailto:orlando@demo.com">orlando@demo.com</a>
+                        </span>
+                    </div>
+                    <div class="extra content">
+                        <a><i class="handshake icon"></i>50 Connects</a>
+                        <a><i class="right floated orange instagram icon"></i></a>
+                        <a><i class="right floated blue twitter icon"></i></a>
+                        <a><i class="right floated blue facebook icon"></i></a>
+                        <a><i class="right floated github icon"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="six wide column">
+                <div class="ui blue segment">
+                    <a class="ui violet ribbon label"><i class="image icon"></i> illustrations</a>
+                    <div class="ui  centered small images">
+                        <img src="assets/avatar1.jpg">
+                        <img src="assets/illu-1.jpg">
+                        <img src="assets/post-1.jpg">
+                        <img src="assets/semanticui.png">
+                    </div>
+                </div>
+                <div class="ui blue segment">
+                    <a class="ui violet ribbon label"><i class="history icon"></i> User Activity</a>
+                    <div class="ui feed">
+                        <div class="event">
+                            <div class="label">
+                                <img src="assets/avatar2.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="summary">
+                                    <a class="user">Mariëlle</a> added you as a friend
+                                    <div class="date">1 Hour Ago</div>
+                                </div>
+                                <div class="meta">
+                                    <a class="like">
+                                        <i class="like icon"></i> 4 Likes
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="label">
+                                <img src="assets/avatar3.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="summary">
+                                    <a>&#42665&#42721&#42724&#42679&#42708&#42658</a> added <a>2 new illustrations</a>
+                                    <div class="date">4 days ago</div>
+                                </div>
+                                <div class="extra images">
+                                    <a><img src="assets/illu-1.jpg"></a>
+                                    <a><img src="assets/avatar3-3.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ten wide column">
+                <div class="ui blue  segment">
+                    <a class="ui violet ribbon label"><i class="list icon"></i> What's Happening</a>
+                    <div class="ui divided items">
+                        <div class="item">
+                            <div class="image">
+                                <img src="assets/semanticui.png">
+                            </div>
+                            <div class="content">
+                                <a class="header">Semantic UI Update</a>
+                                <div class="meta">
+                                    <span>Posted on : DD/MM/YYYY </span>
+                                </div>
+                                <div class="meta">
+                                    <span>source : <a href="https://semantic-ui.com" target="_blank">semantic-ui.com</a></span>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at nulla interdum, vehicula neque a, eleifend ante. Donec nibh dolor, vehicula at scelerisque tempor, suscipit id nulla. Etiam sit amet condimentum lectus. Suspendisse potenti. Vivamus sit amet ultrices est, vel egestas lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                    </p>
+                                </div>
+                                <div class="extra">
+                                    <div class="ui right floated primary button">
+                                        Repost
+                                        <i class="right chevron icon"></i>
+                                    </div>
+                                    <div class="ui right floated red inverted button">
+                                        <i class="heart icon"></i>
+                                        Love it
+                                    </div>
+                                    <div class="ui purple label">Front-End</div>
+                                    <div class="ui violet label">Design</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="assets/post-1.jpg">
+                            </div>
+                            <div class="content">
+                                <a class="header">Bitcoin is hot right now!</a>
+                                <div class="meta">
+                                    <span>Posted on : DD/MM/YYYY </span>
+                                </div>
+                                <div class="meta">
+                                    <span>source : <a href=https://bitcoin.com" target="_blank">bitcoin.com</a></span>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at nulla interdum, vehicula neque a, eleifend ante. Donec nibh dolor, vehicula at scelerisque tempor, suscipit id nulla. Etiam sit amet condimentum lectus. Suspendisse potenti. Vivamus sit amet ultrices est, vel egestas lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                    </p>
+                                </div>
+                                <div class="extra">
+                                    <div class="ui right floated primary button">
+                                        Repost
+                                        <i class="right chevron icon"></i>
+                                    </div>
+                                    <div class="ui right floated red inverted button">
+                                        <i class="heart icon"></i>
+                                        Love it
+                                    </div>
+                                    <div class="ui yellow label">bitcoin</div>
+                                    <div class="ui green label">Money</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.10/dist/semantic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="app.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.special.cards .image').dimmer({
+            on: 'hover'
+        });
+        $('.ui.dropdown')
+            .dropdown()
+        ;
+    });
+</script>
+<script>
+    $(document)
+        .ready(function() {
+
+            // fix menu when passed
+            $('.masthead')
+                .visibility({
+                    once: false,
+                    onBottomPassed: function() {
+                        $('.fixed.menu').transition('fade in');
+                    },
+                    onBottomPassedReverse: function() {
+                        $('.fixed.menu').transition('fade out');
+                    }
+                })
+            ;
+            // create sidebar and attach to menu open
+            $('.ui.sidebar')
+                .sidebar('attach events', '.toc.item')
+            ;
+
+        })
+    ;
+</script>
+</body>
+</html>
